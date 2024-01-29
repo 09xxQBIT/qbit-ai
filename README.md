@@ -5,6 +5,7 @@ QBIT detects vulnerabilities in Smart Contracts based on patterns and AI code an
 ## Smart Contract Support
 
 - Solana based on Rust
+- Ethereum based on Solidity
 
 ## Design
 
@@ -13,7 +14,9 @@ QBIT detects vulnerabilities in Smart Contracts based on patterns and AI code an
 
 ## How It Works
 
-- **Vulnerability Patterns Analysis:** Analysis of smart contract code for [vulnerability patterns](etc/patterns.md).
+- **Vulnerability Patterns Analysis:** Analysis of smart contract code for
+    - [Rust-Solana](etc/patterns-sol.md)
+    - [Solidity-Ethereum](etc/patterns-eth-solidity.md)
 - **AI Code Analysis:** Analysis of smart contract code for vulnerabilities using Language Model validators (LLMs).
 - **LLM Validators:** Potential vulnerabilities detected are passed on to multiple LLM validators for confirmation. Three different models are utilized: GPT-4, Gemini, and Claude 2.
 - **Validation Process:** Each validator independently assesses potential vulnerabilities. Detected vulnerabilities undergo a validation check.
@@ -74,7 +77,9 @@ qbit smart-contracts-folder-to-analyse
 
 ![gif!](etc/report.gif)
 
-[Report example](https://github.com/VulnPlanet/qbit/blob/main/etc/QBIT_SAST_Report.html)
+[Report example - Solana](https://github.com/VulnPlanet/qbit/blob/main/etc/QBIT_SAST_Report.html)
+
+[Report example - Ethereum](https://github.com/VulnPlanet/qbit/blob/main/etc/Solidity-Ethereum_QBIT_SAST_Report.html)
 
 ## Roadmap 🗓️
 
