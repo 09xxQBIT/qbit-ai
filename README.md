@@ -4,6 +4,8 @@ QBIT detects vulnerabilities in Rust and Solidity code based on patterns and AI 
 
 # Website: [qbit-ai.xyz](https://qbit-ai.xyz)
 
+# Documentation: [qbit-docs.gitbook.io](https://qbit-docs.gitbook.io)
+
 ## Supported Languages and Smart Contracts:
 
 - General Rust code
