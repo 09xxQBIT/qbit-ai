@@ -2,7 +2,7 @@
 
 QBIT detects vulnerabilities in Rust and Solidity code based on patterns and AI code analysis. Various LLMs act as validators for vulnerabilities detected by patterns and validate each other's results in AI code analysis. Vulnerabilities are confirmed when they receive confirmation from a majority of validators. As a result, a report with validated vulnerabilities and detected safe patterns is generated.
 
-# Website: qbit-ai.xyz
+# Website: [qbit-ai.xyz](https://qbit-ai.xyz)
 
 # Our Website: 
 
