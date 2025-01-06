@@ -83,17 +83,6 @@ cargo run
 qbit smart-contracts-folder-to-analyse [--all-severities] [--no-validation] [--model=MODEL]
 ```
 
-## Usage Example 🏁
-
-![exec!](etc/exec.png)
-
-![gif!](etc/report.gif)
-
-[Report example - Rust](https://github.com/VulnPlanet/qbit/blob/main/etc/QBIT_SAST_Report_Rust.html)
-
-[Report example - Solana](https://github.com/VulnPlanet/qbit/blob/main/etc/QBIT_SAST_Report.html)
-
-[Report example - Ethereum](https://github.com/VulnPlanet/qbit/blob/main/etc/Solidity-Ethereum_QBIT_SAST_Report.html)
 
 ## Roadmap 🗓️
 
@@ -110,6 +99,4 @@ qbit smart-contracts-folder-to-analyse [--all-severities] [--no-validation] [--m
 - Refactor
 - Accuracy Comparison
 
-***REMOVED***
 
-***REMOVED*** or 
